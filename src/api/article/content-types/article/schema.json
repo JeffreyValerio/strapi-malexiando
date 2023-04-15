@@ -31,7 +31,8 @@
           "localized": true
         }
       },
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "big_image": {
       "type": "media",
@@ -53,12 +54,13 @@
         }
       },
       "type": "uid",
-      "targetField": "title"
+      "targetField": "title",
+      "required": true
     },
     "small_image": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
@@ -75,7 +77,8 @@
         }
       },
       "type": "boolean",
-      "default": false
+      "default": false,
+      "required": true
     },
     "author": {
       "type": "relation",

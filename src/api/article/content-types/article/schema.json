@@ -105,6 +105,14 @@
       },
       "required": false,
       "customField": "plugin::ckeditor.CKEditor"
+    },
+    "slug_i18n": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "json"
     }
   }
 }
